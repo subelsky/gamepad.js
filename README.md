@@ -1,5 +1,7 @@
 # gamepad.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/neogeek/gamepad.js.svg)](https://greenkeeper.io/)
+
 > Simple customizable event binding for the HTML Gamepad API.
 
 ## Setup
