@@ -91,6 +91,26 @@ gamepad.on('hold', 'shoulder_bottom_right', e => {
     console.log(`shoulder_bottom_right has a value of ${e.value}!`);
 });
 ```
+## Joysticks
+
+> Similar to buttons, read the value to get the axial data
+
+```javascript
+gamepad.on('press', 'stick_axis_left', e => {
+    console.log(`Left stick pressed, value: ${e.value}`);
+});
+
+// Left stick pressed, value: -0.4745097756385803,-0.23137253522872925
+```
+
+```javascript
+gamepad.on('press', 'stick_axis_right', e => {
+    console.log(`Right stick pressed, value: ${e.value}`);
+});
+
+// Right stick pressed, value: 0.5529412031173706,0.20784318447113037
+```
+
 
 ## Custom Mapping
 
